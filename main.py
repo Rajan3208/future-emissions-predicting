@@ -43,7 +43,7 @@ def get_air_quality_forecast(lat, lon):
         st.error("Failed to fetch air quality forecast data")
         return None
 
-st.title('Predicting future emmisions with respect to present emmisions ')
+st.title('Predicting future emissions with respect to present emissions ')
 
 st.write("""
 This app predicts CO2 , CH4, and CO concentrations based on location and date, fetches real-time air quality data of CO2, CH4, CO, NO,O3, SO2, NH3 and N2O,
