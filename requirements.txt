@@ -2,4 +2,6 @@ streamlit
 pandas
 numpy
 joblib
-# Add any other libraries your app uses
+requests
+plotly
+scikit-learn
